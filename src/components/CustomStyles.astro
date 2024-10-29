@@ -21,43 +21,38 @@ import '@fontsource-variable/inter';
 
 <style is:inline>
   :root {
-    --aw-font-sans: 'Inter Variable';
-    --aw-font-serif: 'Inter Variable';
-    --aw-font-heading: 'Inter Variable';
+    --aw-font-sans: 'Open Sans';
+    --aw-font-serif: 'Open Sans';
+    --aw-font-heading: 'Open Sans';
+    --aw-color-primary: #032b44;
+    --aw-color-secondary: #808080;
+    --aw-color-accent: #ffc107;
+    --aw-color-text-heading: #032b44;
+    --aw-color-text-default: #1a1d23;
+    --aw-color-text-muted: #1a1d23 / 66%;
+    --aw-color-bg-page: #ffffff;
+    --aw-color-bg-page-dark: #1a1d23;
+  }
 
-    --aw-color-primary: rgb(1 97 239);
-    --aw-color-secondary: rgb(1 84 207);
-    --aw-color-accent: rgb(109 40 217);
-
-    --aw-color-text-heading: rgb(0 0 0);
-    --aw-color-text-default: rgb(16 16 16);
-    --aw-color-text-muted: rgb(16 16 16 / 66%);
-    --aw-color-bg-page: rgb(255 255 255);
-
-    --aw-color-bg-page-dark: rgb(3 6 32);
-
-    ::selection {
-      background-color: lavender;
-    }
+  ::selection {
+    background-color: #ffc107;
   }
 
   .dark {
-    --aw-font-sans: 'Inter Variable';
-    --aw-font-serif: 'Inter Variable';
-    --aw-font-heading: 'Inter Variable';
+    --aw-font-sans: 'Open Sans';
+    --aw-font-serif: 'Open Sans';
+    --aw-font-heading: 'Open Sans';
+    --aw-color-primary: #032b44;
+    --aw-color-secondary: #f7f7f7;
+    --aw-color-accent: #ffc107;
+    --aw-color-text-heading: #ffffff;
+    --aw-color-text-default: #f7f7f7;
+    --aw-color-text-muted: #f7f7f7 / 66%;
+    --aw-color-bg-page: #1a1d23;
+  }
 
-    --aw-color-primary: rgb(1 97 239);
-    --aw-color-secondary: rgb(1 84 207);
-    --aw-color-accent: rgb(109 40 217);
-
-    --aw-color-text-heading: rgb(247, 248, 248);
-    --aw-color-text-default: rgb(229 236 246);
-    --aw-color-text-muted: rgb(229 236 246 / 66%);
-    --aw-color-bg-page: rgb(3 6 32);
-
-    ::selection {
-      background-color: black;
-      color: snow;
-    }
+  ::selection.dark {
+    background-color: #ffc107;
+    color: #ffffff;
   }
 </style>
