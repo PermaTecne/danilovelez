@@ -1,5 +1,5 @@
 ---
-date: 2024-04-02
+publishDate: 2024-04-02
 title: 'Índice de Burocracia 2023'
 excerpt: 'El tiempo promedio que las empresas pequeñas en Ecuador destinan a cumplir con los distintos trámites burocráticos de funcionamiento equivale a 442.59 horas al año.'
 image: '~/assets/images/blog/índice_burocracia_2023_hero.webp'
