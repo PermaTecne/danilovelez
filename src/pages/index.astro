@@ -1,11 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero2 from '~/components/widgets/Hero2.astro';
-import Content from '~/components/widgets/Content.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 
 const metadata = {
   title: 'Danilo Vélez Galarza',
@@ -19,10 +19,17 @@ const metadata = {
     id="hero"
     title="Danilo Vélez Galarza"
     tagline="Analista económico, conferencista y docente ecuatoriano"
-    actions={[{ variant: 'primary', text: '¡Contáctame!', href: 'mailto:danilo_velez@hotmail.com' }]}
+    actions={[
+      {
+        variant: "primary",
+        text: "¡Contáctame!",
+        href: "mailto:danilo_velez@hotmail.com",
+      },
+    ]}
     image={{
-      src: '~/assets/images/presentador_asamblea_nacional.jpg',
-      alt: 'Danilo Vélez Galarza, presentando un punto en la Asamblea Nacional del Ecuador.',
+      src: "~/assets/images/presentador_asamblea_nacional.jpg",
+      alt:
+        "Danilo Vélez Galarza, presentando un punto en la Asamblea Nacional del Ecuador.",
     }}
   >
     <Fragment slot="title">
@@ -104,46 +111,55 @@ const metadata = {
           'Benefiting from the performance and developer-friendly features of this modern static site generator.',
       },
       {
-        icon: 'tabler:brand-linkedin',
+        icon: "tabler:brand-linkedin",
         callToAction: {
-          target: '_blank',
-          text: 'LinkedIn',
-          href: 'https://www.linkedin.com/in/danilovelez/',
+          target: "_blank",
+          text: "LinkedIn",
+          href: "https://www.linkedin.com/in/danilovelez/",
         },
       },
       {
-        icon: 'tabler:brand-x',
+        icon: "tabler:brand-x",
         callToAction: {
-          target: '_blank',
-          text: 'Twitter (X)',
-          href: 'https://x.com/danilovelezg',
+          target: "_blank",
+          text: "Twitter (X)",
+          href: "https://x.com/danilovelezg",
         },
       },
     ]}
     image={{
-      src: '~/assets/images/danilo_velez_podio.png',
-      alt: 'Danilo Vélez Galarza, dándo una charla magistral.',
-      loading: 'eager',
+      src: "~/assets/images/danilo_velez_podio.png",
+      alt: "Danilo Vélez Galarza, dándo una charla magistral.",
+      loading: "eager",
     }}
   >
     <Fragment slot="content">
-      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Acerca de</h2>
+      <h2
+        class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2"
+      >
+        Acerca de
+      </h2>
       <p>
-        Graduado de Economía en la Universidad Santa María - Campus Guayaquil. Actualmente cursa su maestría en Economía
-        y Ciencias Políticas en ESEADE (Argentina).
+        Graduado de Economía en la Universidad Santa María - Campus Guayaquil.
+        Actualmente cursa su maestría en Economía y Ciencias Políticas en ESEADE
+        (Argentina).
       </p>
       <br />
       <p>
-        Ha sido el investigador principal del Instituto Ecuatoriano de Economía Política (IEEP) por más de cinco años.
-        Durante ese tiempo ha participado en la elaboración de varios estudios económicos, entre los que destacan el
-        Índice de Burocracia, la iniciativa Inversión para la Reactivación del Ecuador, y publicaciones sobre
-        Dolarización e Integración Financiera.
+        Ha sido el investigador principal del Instituto Ecuatoriano de Economía
+        Política (IEEP) por más de cinco años. Durante ese tiempo ha participado
+        en la elaboración de varios estudios económicos, entre los que destacan
+        el Índice de Burocracia, la iniciativa Inversión para la Reactivación
+        del Ecuador, y publicaciones sobre Dolarización e Integración
+        Financiera.
       </p>
       <br />
       <p>
-        Fue docente en el Diplomado en Economía de la Escuela Austriaca y Políticas Públicas de la UEES y el IEEP. Ha
-        sido conferencista nacional e internacional. Tiene una activa participación en medios de comunicación de
-        Ecuador. Cuenta con experiencia en la elaboración de proyectos y en asesoría legislativa.
+        Fue docente en el Diplomado en Economía de la Escuela Austriaca y
+        Políticas Públicas de la UEES y el IEEP. Ha sido conferencista nacional
+        e internacional. Tiene una activa participación en medios de
+        comunicación de Ecuador. Cuenta con experiencia en la elaboración de
+        proyectos y en asesoría legislativa.
       </p>
     </Fragment>
   </Content>
@@ -162,19 +178,19 @@ const metadata = {
     title="¿En qué te puedo ayudar?"
     items={[
       {
-        title: 'Entrevistas en medios',
+        title: "Entrevistas en medios",
         description:
-          'Obtén insights y análisis económicos de actualidad por parte de un experto en economía con amplia experiencia en medios de comunicación de Ecuador.',
+          "Obtén insights y análisis económicos de actualidad por parte de un experto en economía con amplia experiencia en medios de comunicación de Ecuador.",
       },
       {
-        title: 'Elaboración de proyectos',
+        title: "Elaboración de proyectos",
         description:
-          'Desarrolla proyectos económicos y de políticas públicas con la ayuda de un investigador principal con más de cinco años de experiencia en el Instituto Ecuatoriano de Economía Política.',
+          "Desarrolla proyectos económicos y de políticas públicas con la ayuda de un investigador principal con más de cinco años de experiencia en el Instituto Ecuatoriano de Economía Política.",
       },
       {
-        title: 'Consultas académicas',
+        title: "Consultas académicas",
         description:
-          'Resuelve tus dudas sobre economía, política y teorías económicas con un profesional con formación académica en Economía y experiencia como docente en diplomados especializados.',
+          "Resuelve tus dudas sobre economía, política y teorías económicas con un profesional con formación académica en Economía y experiencia como docente en diplomados especializados.",
       },
     ]}
   />
@@ -187,9 +203,9 @@ const metadata = {
     subtitle="¿Requieres algún servicio profesional?"
     actions={[
       {
-        variant: 'primary',
-        text: '¡Contáctame!',
-        href: 'mailto:danilo_velez@hotmail.com',
+        variant: "primary",
+        text: "¡Contáctame!",
+        href: "mailto:danilo_velez@hotmail.com",
       },
     ]}
   />

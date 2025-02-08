@@ -1,6 +1,7 @@
 # build output
-dist/
 .output/
+dist/
+deploy
 
 # dependencies
 node_modules/
