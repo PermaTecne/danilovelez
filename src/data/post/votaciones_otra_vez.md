@@ -46,6 +46,3 @@ Si bien estas propuestas podrían resultar chocantes, lo que se trata es mejorar
 Para el caso ecuatoriano, dejando de lado cambios radicales, un planteamiento lógico sería eliminar el voto obligatorio. Así, se podría reducir la incidencia de la ignorancia racional y la irracionalidad racional. Ahora bien, ¿estarían dispuestos los políticos ecuatorianos a apoyar una medida como esta? ¿Les conviene? La respuesta es: probablemente no.
 
 En definitiva, lo que se expone en estas líneas sirve de explicación para los resultados que tenemos en la esfera política y a la vez presenta un escenario desalentador respecto al futuro de nuestra democracia. Mientras vamos terminando, miles de ecuatorianos se preparan para hacer su ‘agosto’ ofreciendo el servicio de emplasticar el papelito-mágico-habilitante-de-un-sinnúmero-de-trámites.
-
-
- 
