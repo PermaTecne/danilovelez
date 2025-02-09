@@ -1,7 +1,7 @@
-import type { PaginateFunction } from 'astro';
 import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import { APP_BLOG } from 'astrowind:config';
+import type { PaginateFunction } from 'astro';
 import type { PaginateFunction } from 'astro';
 import type { Post } from '~/types';
 import { BLOG_BASE, CATEGORY_BASE, POST_PERMALINK_PATTERN, TAG_BASE, cleanSlug, trimSlash } from './permalinks';
