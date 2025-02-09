@@ -32,6 +32,7 @@
     "astro-icon": "^1.1.5",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "tinacms": "^2.6.3",
     "unpic": "^3.22.0"
   },
   "devDependencies": {
@@ -43,10 +44,12 @@
     "@iconify-json/flat-color-icons": "^1.2.1",
     "@iconify-json/tabler": "^1.2.16",
     "@tailwindcss/typography": "^0.5.16",
+    "@tinacms/cli": "^1.8.3",
     "@types/eslint__js": "^8.42.3",
     "@types/js-yaml": "^4.0.9",
     "@types/lodash.merge": "^4.6.9",
     "@types/mdx": "^2.0.13",
+    "@types/node": "^22.13.1",
     "@typescript-eslint/eslint-plugin": "^8.23.0",
     "@typescript-eslint/parser": "^8.23.0",
     "astro-compress": "2.3.6",
